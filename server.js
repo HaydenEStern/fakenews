@@ -12,7 +12,7 @@ var PORT = process.env.PORT || 3000;
 var app = express();
 
 // Require our routes
-var routes = require("./routes/apiroutes");
+var routes = require("./routes");
 
 // Designate our public folder as a static directory
 app.use(express.static("public"));
